@@ -2,12 +2,14 @@
 <html lang="fr">
 <head>
   <title>Petit bac de ouf</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="centered">
   <a onclick="regles()" class="regles radius">Règles</a>
+
   <div id="rules" class="radius centered">
     <a onclick="regles()" class="radius centered">X</a>
     <span>Règles</span>
@@ -18,20 +20,21 @@
       <li>Bonne réponse + rire général : 4 puntos</li>
     </ul>
   </div>
+  
   <section class="centered radius">
-<h1>Petit bac de ouf</h1>
+    <h1>Petit bac de ouf</h1>
     
-<div class="liste centered">
-<ul class="result"></ul>
-<button class="radius centered" onclick="createList()">Thèmes</button>
+    <div class="liste centered">
+      <ul class="result"></ul>
+      <button class="radius centered" onclick="createList()">Thèmes</button>
     </div>
 
-<div class="lettre centered">
-<span id="random-letter"></span>
-<button class="radius centered" onclick="randLetter()">Lettre</button>
-</div>
+    <div class="lettre centered">
+      <span id="random-letter"></span>
+      <button class="radius centered" onclick="randLetter()">Lettre</button>
+    </div>
   </section>
 
-<script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
