@@ -25,6 +25,8 @@ const themes = [
 "Nom de DJ de boîte de nuit d'Evreux",
 "S'en sort pas trop mal contre un ours",
 "Travail fictif",
+"Nom de chien qui te met la honte dans la rue",
+"Truc honteux quand t'as des invité.es chez toi",
 "Phrase stylée avant de mourir"
 ];
 
