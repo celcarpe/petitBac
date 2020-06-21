@@ -27,6 +27,9 @@ const themes = [
 "Travail fictif",
 "Nom de chien qui te met la honte dans la rue",
 "Truc honteux quand t'as des invité.es chez toi",
+"Expression inventée crédible",
+"Phrase de la vie commune à double sens",
+"Mort humiliante",
 "Phrase stylée avant de mourir"
 ];
 
